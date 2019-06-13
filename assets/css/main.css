@@ -9994,12 +9994,49 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
 
 body {
   background-color: #ffffff;
+}
+
+main {
+  padding-left: 15vw;
+}
+
+.container {
+  padding-left: 7vw;
+  padding-right: 10vw;
+}
+
+header, section:not(:last-of-type) {
+  border-bottom: 1px solid #cccccc;
+}
+
+nav {
+  position: fixed;
+  width: 15vw;
+  height: 100vh;
+  background-color: #7cea9c;
+}
+
+.nav__link {
+  display: block;
+}
+
+.item__title {
+  position: relative;
+}
+.item__title .item__fecha {
+  position: absolute;
+  right: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

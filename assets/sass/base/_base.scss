@@ -1,3 +1,16 @@
 body{
     background-color: $blanco;
 }
+
+main{
+    padding-left: $vw_menu;
+}
+
+.container{
+    padding-left: 7vw;
+    padding-right: 10vw;
+}
+
+header, section:not(:last-of-type){
+    border-bottom: 1px solid darken($blanco, 20%);
+}
